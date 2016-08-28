@@ -1,0 +1,26 @@
+html {
+  font-family: 'Roboto'; }
+
+.knob-outer {
+  /* background-color: ; */
+  -webkit-transition: background-color 200ms ease-out;
+  -moz-transition: background-color 200ms ease-out;
+  -o-transition: background-color 200ms ease-out;
+  -ms-transition: background-color 200ms ease-out;
+  transition: background-color 200ms ease-out; }
+
+.knob-inner-active {
+  background-color: #aed581;
+  cursor: ponter; }
+
+.knob-inner-active:hover {
+  background-color: gray; }
+
+.knob-inner-inactive {
+  background-color: #ffffff;
+  cursor: ponter; }
+
+.knob-inner-inactive:hover {
+  background-color: #c3c4c3; }
+
+/*# sourceMappingURL=style.css.map */
