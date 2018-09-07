@@ -1,0 +1,119 @@
+# Updated by fix_deps.py
+pnacl/Release/csound.o: csound.cpp \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/audio.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_stdint.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_macros.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_audio.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_bool.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_instance.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_resource.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_time.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/audio_config.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_audio_config.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/resource.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/instance_handle.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/pass_ref.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/audio_buffer.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_audio_buffer.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/media_stream_audio_track.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_media_stream_audio_track.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_completion_callback.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_var.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/var.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/var_array_buffer.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/var_dictionary.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/var_array.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/completion_callback.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_errors.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/logging.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/module.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_module.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/ppb.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_core.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/core.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/output_traits.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/array_output.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_array_output.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/instance.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_console.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/view.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/rect.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_rect.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_point.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/pp_size.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/point.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/size.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/url_loader.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/cpp/url_request_info.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_url_request_info.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/utility/completion_callback_factory.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/utility/completion_callback_factory_thread_traits.h \
+  /opt/nacl_sdk/pepper_46/include/ppapi/utility/threading/lock.h \
+  /opt/nacl_sdk/pepper_46/include/pnacl/sys/mount.h \
+  /opt/nacl_sdk/pepper_46/include/nacl_io/nacl_io.h \
+  /opt/nacl_sdk/pepper_46/include/nacl_io/ostypes.h \
+  /opt/nacl_sdk/pepper_46/include/sdk_util/macros.h \
+  ../../include/csound.h ../../include/sysdep.h ../float-version.h \
+  ../../include/text.h ../../include/cfgvar.h ../../include/msg_attr.h \
+  ../../include/version.h
+csound.cpp:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/audio.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_stdint.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_macros.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_audio.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_bool.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_instance.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_resource.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_time.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/audio_config.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_audio_config.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/resource.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/instance_handle.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/pass_ref.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/audio_buffer.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_audio_buffer.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/media_stream_audio_track.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_media_stream_audio_track.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_completion_callback.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_var.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/var.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/var_array_buffer.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/var_dictionary.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/var_array.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/completion_callback.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_errors.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/logging.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/module.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_module.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/ppb.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_core.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/core.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/output_traits.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/array_output.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_array_output.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/instance.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_console.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/view.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/rect.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_rect.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_point.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/pp_size.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/point.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/size.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/url_loader.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/cpp/url_request_info.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/c/ppb_url_request_info.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/utility/completion_callback_factory.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/utility/completion_callback_factory_thread_traits.h:
+/opt/nacl_sdk/pepper_46/include/ppapi/utility/threading/lock.h:
+/opt/nacl_sdk/pepper_46/include/pnacl/sys/mount.h:
+/opt/nacl_sdk/pepper_46/include/nacl_io/nacl_io.h:
+/opt/nacl_sdk/pepper_46/include/nacl_io/ostypes.h:
+/opt/nacl_sdk/pepper_46/include/sdk_util/macros.h:
+../../include/csound.h:
+../../include/sysdep.h:
+../float-version.h:
+../../include/text.h:
+../../include/cfgvar.h:
+../../include/msg_attr.h:
+../../include/version.h:
